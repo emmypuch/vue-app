@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
 }
 
 h1,
@@ -21,16 +22,28 @@ div.image {
   margin-top: 5rem;
 }
 
-div.image img {
+img {
   border-radius: 50%;
-  border: 3px solid #000;
+  border: 3px solid #333;
 }
 
-div.btn button {
-  background: #222;
-  color: #fff;
+button {
+  background: #333;
+  color: rgb(216, 214, 214);
   border: none;
   border-radius: 2px;
   padding: 10px 20px;
   cursor: pointer;
+  font-size: 1rem;
+}
+
+.male {
+  border-color: steelblue;
+  background: steelblue;
+}
+
+.female {
+  border-color: pink;
+  background: pink;
+  color: #333;
 }
